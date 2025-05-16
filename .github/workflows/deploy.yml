@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /chemin/vers/ton/projet
+            cd ~/FXServer/server-data/resources/[local]/fivem-test
             git pull origin main
