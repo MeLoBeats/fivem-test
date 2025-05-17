@@ -10,6 +10,8 @@ CreateThread(function()
         Wait(0)
         if NetworkIsPlayerActive(player) then
             TriggerEvent('playerJoin')
+        else
+            print("ah")
         end
     end
 end)
